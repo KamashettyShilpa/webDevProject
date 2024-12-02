@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link href="index.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div id="title">
+            <hr id="line1">
+            <div id="text">YAY! It's BOGO</div>
+            <hr id="line2">
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main id="main">
+        <!-- Product Options Section -->
+        <section id="container">
+            <article id="box" class="unit-box">
+                <div class="Box">
+                    <div id="ellipse286" onclick="toggleOptions(1)">
+                        <div id="ellipse285"></div>
+                    </div>
+                    <div id="unit">1 Unit</div>
+                    <div id="discount">10% Off</div>
+                    <div id="standardPrice">Standard Price</div>
+                    <div id="price">$10.00 USD</div>
+                    <div id="old_price" class="price">$24.00 USD</div>
+                </div>
+                <div id="box1Options" class="unit-options">
+                    <div class="dropdown">
+                        <label for="size1">Size:</label>
+                        <select id="size1">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </div>
+                    <div class="dropdown">
+                        <label for="color1">Color:</label>
+                        <select id="color1">
+                            <option value="Black">Black</option>
+                            <option value="White">Pink</option>
+                            <option value="Red">Yellow</option>
+                        </select>
+                    </div>
+                </div>
+            </article>
+            <article id="box2" class="unit-box">
+                <div class="Box">
+                    <div id="box2ellipse286" onclick="toggleOptions(2)">
+                        <div id="ellipse285"></div>
+                    </div>
+                    <div id="unit2">2 Unit</div>
+                    <div id="discount20">20% Off</div>
+                    <div id="box2Price">$18.00 USD</div>
+                    <div id="box2_old_price">$24.00 USD</div>
+                </div>
+                <div id="box2Options" class="unit-options">
+                    <div class="dropdown">
+                        <label for="size2">Size:</label>
+                        <select id="size2">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </div>
+                    <div class="dropdown">
+                        <label for="color2">Color:</label>
+                        <select id="color2">
+                            <option value="Black">Black</option>
+                            <option value="White">Pink</option>
+                            <option value="Red">Yellow</option>
+                        </select>
+                    </div>
+                </div>
+            </article>
+            <div id="rect">
+                <div id="mostPopular">MOST POPULAR</div>
+            </div>
+            <article id="box3" class="unit-box">
+                <div class="Box">
+                    <div id="box3ellipse286" onclick="toggleOptions(3)">
+                        <div id="ellipse285"></div>
+                    </div>
+                    <div id="unit3">3 Unit</div>
+                    <div id="discount30">30% Off</div>
+                    <div id="box3Price">$24.00 USD</div>
+                    <div id="box3_old_price">$24.00 USD</div>
+                </div>
+                <div id="box3Options" class="unit-options">
+                    <div class="dropdown">
+                        <label for="size3">Size:</label>
+                        <select id="size3">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </div>
+                    <div class="dropdown">
+                        <label for="color3">Color:</label>
+                        <select id="color3">
+                            <option value="Black">Black</option>
+                            <option value="White">Pink</option>
+                            <option value="Red">Yellow</option>
+                        </select>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Additional Information Section -->
+        <section id="extra">
+            <div id="freeDelivery">Free Delivery</div>
+            <div id="total">Total: $18.00 USD</div>
+            <div id="addBtn">
+                <div id="plus">+</div>
+                <div id="addBtnText">Add to cart</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div id="btmText">@ Powered by Pumper</div>
+    </footer>
+   <script src="index.js"></script>
+</body>
+</html>
